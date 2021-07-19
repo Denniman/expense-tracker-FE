@@ -1,0 +1,33 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #052450;
+    grid-area: nav;
+    padding: 1.5rem 3.5rem;
+    color: #fff; 
+}
+
+.brand-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    font-size: 1.8rem;
+    color: white;
+}
+.link:hover {
+    color: tomato;
+}
+
+.link:last-child {
+    margin-left: 2.5rem;
+}
